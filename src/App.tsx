@@ -4,6 +4,7 @@ import {Body} from "./first-microtask/Body";
 import {Footer} from "./first-microtask/Footer";
 import {NewComponent} from "./second-microtask/map";
 import {Button} from "./third-microtask/Button";
+import {Fourth} from "./fourth-microtask/Fourth";
 
 
 const student = [
@@ -34,8 +35,13 @@ function App() {
             </div>
 
             <div>
-                <Button/>
+                {/*<Button/>*/}
             </div>
+
+            <div>
+                <Fourth/>
+            </div>
+
         </div>
     );
 }
