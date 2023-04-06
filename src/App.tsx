@@ -1,11 +1,12 @@
 import React from 'react';
-import {Header} from "./1-microtask/Header";
-import {Body} from "./1-microtask/Body";
-import {Footer} from "./1-microtask/Footer";
-import {NewComponent} from "./2-microtask/map";
-import {Button} from "./3-microtask/Button";
-import {Fourth} from "./4-microtask/Fourth";
-import {Fifth} from "./5-microtask/Fifth";
+import {Header} from "./1-week/1-microtask/Header";
+import {Body} from "./1-week/1-microtask/Body";
+import {Footer} from "./1-week/1-microtask/Footer";
+import {NewComponent} from "./1-week/2-microtask/map";
+import {Button} from "./1-week/3-microtask/Button";
+import {Fourth} from "./1-week/4-microtask/Fourth";
+import {Fifth} from "./1-week/5-microtask/Fifth";
+import {FilterComponent} from "./1-week/6-microtask/6-microtask";
 
 
 const student = [
@@ -45,6 +46,10 @@ function App() {
 
             <div>
                 <Fifth/>
+            </div>
+
+            <div>
+                <FilterComponent/>
             </div>
 
         </div>
