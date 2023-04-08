@@ -7,6 +7,7 @@ import {Button} from "./1-week/3-microtask/Button";
 import {Fourth} from "./1-week/4-microtask/Fourth";
 import {Fifth} from "./1-week/5-microtask/Fifth";
 import {FilterComponent} from "./1-week/6-microtask/6-microtask";
+import {InputMain} from "./2-week/input";
 
 
 const student = [
@@ -26,30 +27,19 @@ const student = [
 function App() {
     return (
         <div className="App">
-            <div>
-                {/*<Header title={'hello'}/>*/}
-                {/*<Body titleForBody={'New Body'}/>*/}
-                {/*<Footer titleForFooter={'Copyright 2023'}/>*/}
-            </div>
+           {/*<div className="1-week">*/}
+           {/*    <Header title={'hello'}/>*/}
+           {/*    <Body titleForBody={'New Body'}/>*/}
+           {/*    <Footer titleForFooter={'Copyright 2023'}/>*/}
+           {/*    <NewComponent student={student}/>*/}
+           {/*    <Button/>*/}
+           {/*    <Fourth/>*/}
+           {/*    <Fifth/>*/}
+           {/*    <FilterComponent/>*/}
+           {/*</div>*/}
 
-            <div>
-                {/*<NewComponent student={student}/>*/}
-            </div>
-
-            <div>
-                {/*<Button/>*/}
-            </div>
-
-            <div>
-                {/*<Fourth/>*/}
-            </div>
-
-            <div>
-                <Fifth/>
-            </div>
-
-            <div>
-                <FilterComponent/>
+            <div className="2-week">
+                <InputMain/>
             </div>
 
         </div>
